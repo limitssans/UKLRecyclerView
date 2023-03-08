@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Home"
+        android:background="@color/white">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/top_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/cream"
+        app:menu="@menu/navbar_atas" />
+
+    <TextView
+        android:text="sssshoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_marginTop="75dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/reikna"
+        android:textColor="@color/olive"
+        android:textSize="100sp"
+        android:textStyle="normal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_shoes"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="200dp"
+        tools:listitem="@layout/item_row_shoes" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/bottom_navbar"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cream"
+        app:menu="@menu/navbar_bawah"/>
+
+
+
+
+</RelativeLayout>
+
+
