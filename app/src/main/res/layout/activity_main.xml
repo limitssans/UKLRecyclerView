@@ -14,7 +14,6 @@
     android:background="@color/cream"
     tools:context=".MainActivity">
 
-
     <TextView
         android:text="sssshoes"
         android:layout_width="wrap_content"

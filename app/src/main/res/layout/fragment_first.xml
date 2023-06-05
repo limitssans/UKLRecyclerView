@@ -41,7 +41,7 @@
             android:id="@+id/textInputTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan Nama" />
+            android:hint="Masukkan Email" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -62,8 +62,36 @@
             android:id="@+id/textInputTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan Nama" />
+            android:hint="Masukkan Password" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Pilih Tanggal"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textInputLayout"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/olive"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnDate"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
